@@ -1,0 +1,8 @@
+**/*.js
+node_modules
+build
+android
+ios
+.expo
+
+# Aquivos que eu não quero que seja corrigido pelo Prettier
