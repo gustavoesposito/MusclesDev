@@ -3,10 +3,10 @@ import { createStackNavigator } from '@react-navigation/stack';
 const stackRoutes = createStackNavigator();
 
 import constants from '../global/styles/constants';
+import { PersonalChoose } from '../pages/PersonalChoose/PersonalChoose';
 
-//import my views
+//here to import my views
 import { Home } from '../pages/Home/Home';
-import { Choosen } from '../pages/Choosen/Choosen';
 
 const AppRoutes: React.FC = () => (
   <stackRoutes.Navigator
@@ -20,8 +20,7 @@ const AppRoutes: React.FC = () => (
     }}
   >
     <stackRoutes.Screen name="Home" component={Home} />
-
-    <stackRoutes.Screen name="Choosen" component={Choosen} />
+    <stackRoutes.Screen name="PersonalChoose" component={PersonalChoose} />
   </stackRoutes.Navigator>
 );
 
