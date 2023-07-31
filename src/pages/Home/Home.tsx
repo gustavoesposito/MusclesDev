@@ -54,7 +54,7 @@ export const Home: React.FunctionComponent = () => {
         return (
           <>
             <ImageSlideHolder>
-              <Image source={require('../../assets/work-out-sticker02.png')} />
+              <Image source={require('../../assets/work-out-1.png')} />
             </ImageSlideHolder>
 
             <SlideTextHolder>
@@ -67,7 +67,7 @@ export const Home: React.FunctionComponent = () => {
         return (
           <>
             <ImageSlideHolder>
-              <Image source={require('../../assets/work-out-sticker01.png')} />
+              <Image source={require('../../assets/work-out-2.png')} />
             </ImageSlideHolder>
 
             <SlideTextHolder>

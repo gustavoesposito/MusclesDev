@@ -10,7 +10,7 @@ interface IconProps {
   size?: IconSizeProps['iconSizes'];
   color?: string;
   bundle?: 'MaterialCommunityIcons' | 'MaterialIcons';
-  onPress?: () => {};
+  onPress?: () => void;
 }
 
 type IconSizeProps = {
