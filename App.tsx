@@ -19,6 +19,8 @@ import {
 import { RubikMonoOne_400Regular } from '@expo-google-fonts/rubik-mono-one';
 import AppLoading from 'expo-app-loading';
 import Routes from './src/routes';
+import { Provider } from 'react-redux';
+import store from './src/redux/store';
 
 const App: React.FunctionComponent = () => {
   const [fontsLoaded] = useFonts({
@@ -39,7 +41,9 @@ const App: React.FunctionComponent = () => {
   return (
     <NativeBaseProvider>
       <ThemeProvider theme={constants}>
-        <Routes />
+        <Provider store={store}>
+          <Routes />
+        </Provider>
       </ThemeProvider>
     </NativeBaseProvider>
   );

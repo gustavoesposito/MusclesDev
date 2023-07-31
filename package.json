@@ -14,10 +14,12 @@
     "@expo-google-fonts/roboto": "^0.2.2",
     "@expo-google-fonts/rubik-mono-one": "^0.2.3",
     "@react-native-async-storage/async-storage": "~1.17.3",
+    "@react-native-community/slider": "^4.4.2",
     "@react-native-firebase/app": "^17.5.0",
     "@react-navigation/drawer": "^6.6.2",
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/stack": "^6.3.16",
+    "@reduxjs/toolkit": "^1.9.5",
     "@supabase/supabase-js": "^2.22.0",
     "axios": "^1.4.0",
     "expo": "~47.0.8",
@@ -40,6 +42,8 @@
     "react-native-svg": "13.4.0",
     "react-native-vector-icons": "^9.2.0",
     "react-native-web": "~0.18.7",
+    "react-redux": "^8.1.2",
+    "redux": "^4.2.1",
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
