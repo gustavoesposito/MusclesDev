@@ -30,3 +30,30 @@ export const PersonChoseText = styled.Text`
   font-size: 15px;
   margin-top: 12px;
 `;
+
+export const MeasureTextHolder = styled.View`
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 18px 0;
+`;
+
+export const MeasureText = styled.Text`
+  color: ${({ theme }) => theme.colors.white};
+  font-family: ${({ theme }) => theme.fonts.lexend_bold};
+  font-size: 15px;
+  margin-top: 12px;
+`;
+
+export const MeasureTitle = styled.Text`
+  color: ${({ theme }) => theme.colors.white};
+  font-family: ${({ theme }) => theme.fonts.rubik_regular};
+  font-size: 18px;
+  padding-top: 15px;
+`;
+
+export const StartButtonWrapper = styled.View`
+  flex: 1;
+  align-items: flex-end;
+  margin: 0 16px;
+`;
